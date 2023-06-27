@@ -1,0 +1,44 @@
+.nav-box{
+    
+    height: 600px;
+
+
+}
+.nav-box p{
+    color: #003050;
+    font-size: 27.113px;
+    font-family: Poppins;
+    font-weight: 600;
+    padding-left: 18%;
+    padding-top: 20%;
+}
+.nav-box-1{
+    padding-left: 13%;
+}
+.link{
+    color: white;
+    padding-top: 3%;
+    margin-top: 20%;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ABABAB;
+    font-size: 20.327px;
+    font-family: Poppins;
+    font-weight: 500;
+}
+
+.column-1 {
+    float: left;
+    width: 20%;
+  }
+  .column-2{
+    float: left;
+    width: 77%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

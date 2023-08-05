@@ -34,7 +34,7 @@
     color: white;
     background-color: #1b1b1b;
     border: none;
-    /* border-radius: 6rem; */
+    border-radius: 6rem;
     padding-left: 1.5rem;
     font-size: 1.2rem;
     box-shadow: 0 2px 4px rgba(220, 217, 217, 0.2);
@@ -69,10 +69,8 @@
     align-items: center;
 }
 
-/* Styling for each video statistics item */
 .video-stats p {
     flex: 0 0 calc(33.33% - 10px);
-    /* Adjust the width as needed */
     margin: 5px;
     padding: 10px;
     border: 1px solid #ccc;

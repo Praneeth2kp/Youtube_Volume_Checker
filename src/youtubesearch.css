@@ -1,23 +1,82 @@
-
-
+*{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
 .search-button {
-  align-items: center;
-  justify-content: center;
-  padding: 12px 20px;
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  border-radius: 25px;
-  font-size: 16px;
-  cursor: pointer;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
-  position: relative; /* Added position relative */
+    align-items: center;
+    justify-content: center;
+    padding: 12px 60px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
 }
 
 .search-button:hover {
-  background-color: #45a049;
-  transform: scale(1.1);
+    background-color: #45a049;
+    transform: scale(1.1);
+}
+
+.inner-group-1 {
+    display: flex;
+    gap: 3rem;
+}
+
+.keyword,
+.calender {
+    width: 15rem;
+    height: 2.4rem;
+    margin-top: 2rem;
+    color: white;
+    background-color: #1b1b1b;
+    border: none;
+    /* border-radius: 6rem; */
+    padding-left: 1.5rem;
+    font-size: 1.2rem;
+    box-shadow: 0 2px 4px rgba(220, 217, 217, 0.2);
+
+}
+.keyword:focus,
+.calender:focus {
+    outline:none;
+}
+.keyword::placeholder,
+.calender::placeholder{
+    color: #393939;
+    
+}
+
+.group-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexed {
+    margin-left: 23%;
+    margin-bottom: 10px;
+}
+
+.video-stats {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* Styling for each video statistics item */
+.video-stats p {
+    flex: 0 0 calc(33.33% - 10px);
+    /* Adjust the width as needed */
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
 }
 
 .flex-container {

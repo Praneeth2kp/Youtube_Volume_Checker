@@ -114,8 +114,8 @@ function YoutubeVolumeSearch() {
 
             {searchResult && (
                 <div>
-                    <h2>Total Videos Found: {totalResults}</h2>
-                    <h2>Video Uploads per Month:</h2>
+                    <h2>Number of times Keyword Searched: {totalResults}</h2>
+                    <h2>Keywords Searched Per month:</h2>
                     <div className='flexed'>
                         <div className="video-stats">
                             {videoStatsPerMonth.map((stat) => (

@@ -49,7 +49,7 @@ function YoutubeVolumeSearch() {
                 part: 'snippet',
                 type: 'video',
                 maxResults: 50,
-                key: 'AIzaSyCJr0tj--OThVpP7wYX4yLhE3hTrm43Av8',
+                key: 'AIzaSyDXQNG1_e_tnjj790bDPzo7Sfiju39-r-k',
             };
 
             const videoStats = [];
@@ -114,8 +114,8 @@ function YoutubeVolumeSearch() {
 
             {searchResult && (
                 <div>
-                    <h2>Number of times Keyword Searched: {totalResults}</h2>
-                    <h2>Keywords Searched Per month:</h2>
+                    <h2>Number of times {keyword} is Searched: {totalResults}</h2>
+                    <h2>Keywords Searched Per month in year:</h2>
                     <div className='flexed'>
                         <div className="video-stats">
                             {videoStatsPerMonth.map((stat) => (

@@ -49,7 +49,7 @@ function YoutubeVolumeSearch() {
                 part: 'snippet',
                 type: 'video',
                 maxResults: 50,
-                key: 'AIzaSyDXQNG1_e_tnjj790bDPzo7Sfiju39-r-k',
+                key: 'AIzaSyAKqvS6_BcfToQUERf8-ie6X5mHF2LPyqA',
             };
 
             const videoStats = [];
